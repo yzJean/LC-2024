@@ -15,29 +15,21 @@ public:
         vector<vector<int>> ans;
         ans.clear();
         if (!root) return ans;
-        int level = 0, prev_level = -1;
-        queue<pair<TreeNode*, int>> elems;
-        elems.push(make_pair(root, level));
-        vector<int> level_nodes;
-        level_nodes.clear();
-        while (!elems.empty()) {
-            auto node_level = elems.front();
-            auto node = node_level.first;
-            elems.pop();
-            if (prev_level != node_level.second) {
-                if (prev_level != -1) {
-                    ans.push_back(level_nodes);
-                }
-                level_nodes.clear();
-                level++;
+        queue<TreeNode*> q;
+        q.push(root);
+        while (!q.empty()) {
+            size_t level_size = q.size();
+            vector<int> level;
+            level.clear();
+            for (size_t i = 0; i < level_size; i++) {
+                auto node = q.front();
+                q.pop();
+                if (node->left) q.push(node->left);
+                if (node->right) q.push(node->right);
+                level.push_back(node->val);
             }
-            level_nodes.push_back(node->val);
-            prev_level = node_level.second;
-            if (node->left) elems.push(make_pair(node->left, level));
-            if (node->right) elems.push(make_pair(node->right, level));
+            ans.push_back(level);
         };
-        // push back the final results
-        if (!level_nodes.empty()) ans.push_back(level_nodes);
         return ans;
     }
 };
