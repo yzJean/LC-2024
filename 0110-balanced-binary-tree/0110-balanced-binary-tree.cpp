@@ -17,10 +17,7 @@ private:
         }
         int left_h = Dfs(node->left, is_balanced);
         int right_h = Dfs(node->right, is_balanced);
-        if (abs(left_h - right_h) > 1) {
-            is_balanced = false;
-            return -1; // TODO: think about why
-        }
+        is_balanced = is_balanced && (abs(left_h - right_h) <= 1);
 
         return 1 + max(left_h, right_h);
     }
