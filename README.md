@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/yzJean/LC-2024/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yzJean/LC-2024/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/yzJean/LC-2024/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yzJean/LC-2024/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -36,7 +38,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/yzJean/LC-2024/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0637-average-of-levels-in-binary-tree) |
+## String
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
