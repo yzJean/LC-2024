@@ -26,8 +26,7 @@ public:
     bool hasPathSum(TreeNode* root, int targetSum) {
         if (!root) return false;
         bool has_sum = false; // Need to initialize because the compiler set the default as true
-        int sum = root->val;
-        Dfs(root, sum, targetSum, has_sum);
+        Dfs(root, root->val, targetSum, has_sum);
         return has_sum;
     }
 };
