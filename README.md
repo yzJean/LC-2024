@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/yzJean/LC-2024/tree/master/0102-binary-tree-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/yzJean/LC-2024/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/yzJean/LC-2024/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/yzJean/LC-2024/tree/master/0404-sum-of-left-leaves) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/yzJean/LC-2024/tree/master/0102-binary-tree-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/yzJean/LC-2024/tree/master/0107-binary-tree-level-order-traversal-ii) |
+| [0112-path-sum](https://github.com/yzJean/LC-2024/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
 | [0404-sum-of-left-leaves](https://github.com/yzJean/LC-2024/tree/master/0404-sum-of-left-leaves) |
 | [0513-find-bottom-left-tree-value](https://github.com/yzJean/LC-2024/tree/master/0513-find-bottom-left-tree-value) |
@@ -32,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/yzJean/LC-2024/tree/master/0102-binary-tree-level-order-traversal) |
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/yzJean/LC-2024/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/yzJean/LC-2024/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/yzJean/LC-2024/tree/master/0404-sum-of-left-leaves) |
@@ -43,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0110-balanced-binary-tree) |
+| [0112-path-sum](https://github.com/yzJean/LC-2024/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/yzJean/LC-2024/tree/master/0199-binary-tree-right-side-view) |
 | [0257-binary-tree-paths](https://github.com/yzJean/LC-2024/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/yzJean/LC-2024/tree/master/0404-sum-of-left-leaves) |
