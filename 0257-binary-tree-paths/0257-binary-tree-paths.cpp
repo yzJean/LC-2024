@@ -11,31 +11,23 @@
  */
 class Solution {
 private:
-    void Dfs(TreeNode* node, vector<string>& path, vector<string>& res) {
-        path.push_back(to_string(node->val)); // pre-order search
+    void Dfs(TreeNode* node, string path, vector<string>& res) {
+        path += to_string(node->val); // pre-order search
         if (node->right == nullptr && node->left == nullptr) { // the leaves
-            string root2leaf_path;
-            for (size_t i = 0; i < path.size() - 1; i++) {
-                root2leaf_path += path[i];
-                root2leaf_path += "->";
-            }
-            root2leaf_path += path[path.size() - 1];
-            res.push_back(root2leaf_path);
+            res.push_back(path);
         }
         if (node->left) {
-            Dfs(node->left, path, res);
-            path.pop_back(); // pop out the used element
+            Dfs(node->left, path + "->", res); // In C++: " path + "->" " creates a temporary string object and pass it into the function. This temporary object does not have impacts on " path " itself becasue it is temporary.
         }
         if (node->right) {
-            Dfs(node->right, path, res);
-            path.pop_back(); // pop out the used element
+            Dfs(node->right, path + "->", res);
         }
     }
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string> ans;
         ans.clear();
-        vector<string> path; // TODO: to be optimized
+        string path;
         Dfs(root, path, ans);
         return ans;
     }
