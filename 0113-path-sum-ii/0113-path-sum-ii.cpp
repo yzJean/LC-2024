@@ -11,14 +11,12 @@
  */
 class Solution {
 private:
+    int sum_;
     void Dfs(TreeNode* node, int targetSum, vector<vector<int>>& res, vector<int> path) {
+        sum_ += node->val;
         path.push_back(node->val);
         if (!node->left && !node->right) {
-            int sum = 0;
-            for (auto&& val: path) {
-                sum += val;
-            }
-            if (sum == targetSum) {
+            if (sum_ == targetSum) {
                 res.push_back(path);
             }
             return;
@@ -26,11 +24,13 @@ private:
 
         if (node->left) {
             Dfs(node->left, targetSum, res, path);
+            sum_ -= node->left->val;
             // path.pop_back(); // No need it anymore because the path variable is copied by value
         }
 
         if (node->right) {
             Dfs(node->right, targetSum, res, path);
+            sum_ -= node->right->val;
             // path.pop_back(); // No need it anymore because the path variable is copied by value
         }
 
@@ -42,6 +42,7 @@ public:
         if (!root) { return ans; }
         vector<int> path;
         path.clear();
+        sum_ = 0;
         Dfs(root, targetSum, ans, path);
         return ans;
     }
