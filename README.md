@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/yzJean/LC-2024/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0654-maximum-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/yzJean/LC-2024/tree/master/0783-search-in-a-binary-search-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0617-merge-two-binary-trees](https://github.com/yzJean/LC-2024/tree/master/0617-merge-two-binary-trees) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0654-maximum-binary-tree) |
+| [0783-search-in-a-binary-search-tree](https://github.com/yzJean/LC-2024/tree/master/0783-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -88,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0654-maximum-binary-tree](https://github.com/yzJean/LC-2024/tree/master/0654-maximum-binary-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/yzJean/LC-2024/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
