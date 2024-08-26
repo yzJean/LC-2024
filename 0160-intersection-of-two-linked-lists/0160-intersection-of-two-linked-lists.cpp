@@ -9,35 +9,25 @@
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        int lengA = 0, lengB = 0;
+        if (!headA || !headB) return nullptr;
         ListNode* currA = headA;
         ListNode* currB = headB;
-        // find the length of linked lists
-        while (currA) {
+        // Edge case protection: currA != currB. For example, listA = [1], listB = [1], skipA = 0, skipB = 0.
+        while (currA && currB && currA != currB) {
             currA = currA->next;
-            lengA++;
-        }
-        while (currB) {
             currB = currB->next;
-            lengB++;
-        }
-
-        // adjust the starter
-        currA = headA;
-        currB = headB;
-        int lengDiff = abs(lengA - lengB);
-        while (lengDiff != 0) {
-            if (lengA > lengB) currA = currA->next;
-            else currB = currB->next;
-            lengDiff--;
-        };
-
-        // find the intersection
-        while (currA && currB) {
             if (currA == currB) return currA;
-            currA = currA->next;
-            currB = currB->next;
+            if (!currA) currA = headB;
+            if (!currB) currB = headA;
+
+            // WRONG: Move two steps on the linked list!! It causes a forever loop!
+            // if (currA == currB) return currA;
+            // currA = currA->next;
+            // currB = currB->next;
+            // if (!currA) currA = headB;
+            // if (!currB) currB = headA;
+
         }
-        return nullptr;
+        return currA;
     }
 };
