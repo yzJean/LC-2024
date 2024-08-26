@@ -12,21 +12,9 @@ public:
         if (!headA || !headB) return nullptr;
         ListNode* currA = headA;
         ListNode* currB = headB;
-        // Edge case protection: currA != currB. For example, listA = [1], listB = [1], skipA = 0, skipB = 0.
-        while (currA && currB && currA != currB) {
-            currA = currA->next;
-            currB = currB->next;
-            if (currA == currB) return currA;
-            if (!currA) currA = headB;
-            if (!currB) currB = headA;
-
-            // WRONG: Move two steps on the linked list!! It causes a forever loop!
-            // if (currA == currB) return currA;
-            // currA = currA->next;
-            // currB = currB->next;
-            // if (!currA) currA = headB;
-            // if (!currB) currB = headA;
-
+        while (currA != currB) {
+            currA = currA ? currA->next : headB;
+            currB = currB ? currB->next : headA;
         }
         return currA;
     }
